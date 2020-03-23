@@ -9,5 +9,9 @@
     <orderEntry type="library" name="moment" level="application" />
     <orderEntry type="library" name="cpgadget" level="application" />
     <orderEntry type="library" name="signature_pad" level="application" />
+    <orderEntry type="library" name="angular" level="application" />
+    <orderEntry type="library" name="angular-messages" level="application" />
+    <orderEntry type="library" name="dark" level="application" />
+    <orderEntry type="library" name="sweetalert2" level="application" />
   </component>
 </module>
