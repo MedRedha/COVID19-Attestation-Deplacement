@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60acf386-8de8-4ff0-81e2-22a83d25023a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/covid19-attestation-deplacement-form-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/covid19-attestation-deplacement-form-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584526952749</updated>
-      <workItem from="1584526954410" duration="7662000" />
+      <workItem from="1584526954410" duration="20407000" />
+      <workItem from="1584614690092" duration="2158000" />
     </task>
     <servers />
   </component>
@@ -62,9 +62,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="566" y="201" width="800" height="719" key="#Intentions" timestamp="1584549250213">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="566" y="201" width="800" height="719" key="#Intentions/0.23.1680.1027@0.23.1680.1027" timestamp="1584549250213" />
     <state x="431" y="185" key="SettingsEditor" timestamp="1584528266119">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="431" y="185" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1584528266119" />
+    <state x="631" y="250" key="search.everywhere.popup" timestamp="1584638502046">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="631" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1584638502046" />
   </component>
 </project>
