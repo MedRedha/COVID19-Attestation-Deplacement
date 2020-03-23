@@ -14,6 +14,14 @@ textarea {
 textarea:focus,
 input:focus {
   outline: none;
+  border-color: chartreuse;
+  /*border-radius: 5px;*/
+}
+
+input:hover {
+  outline: none;
+  border-color: #ff670b;
+  /*border-radius: 5px;*/
 }
 
 .col-md-10 > input {
@@ -27,7 +35,6 @@ input:focus {
   text-align: center;
   margin-bottom: 1em;
   margin-top: 4em;
-  background-color: blue;
 }
 
 .subtext {
@@ -35,13 +42,11 @@ input:focus {
   font-weight: 300;
   text-align: center;
   margin-bottom: 2em;
-  background-color: yellow;
 }
 
 .text {
   font-family: "SF Text", serif;
   font-weight: 200;
-  background-color: pink;
 }
 
 input {
@@ -89,11 +94,169 @@ canvas {
 }
 
 input[type="checkbox"] {
-  margin: 0px;
+  margin: 0;
   position: relative;
 }
 
 /**---------------------------------------------------------------------------**/
+/*FORM STYLING*/
+
+#signup img {
+  border: none;
+}
+#signup p {
+  margin: 0 0 1em 0;
+}
+#signup h2 {
+  font-size: 14px;
+  margin: 0 0 12px;
+}
+/*#signup{margin: 20px auto;width: 500px;}*/
+#signup fieldset {
+  margin: 0 0 20px;
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#signup ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#signup li {
+  margin: 0 0 12px;
+  position: relative;
+}
+#signup label {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+legend {
+  color: #00c492;
+}
+#signup fieldset input,
+#signup fieldset select {
+  background: #fff url("https://i.dlpng.com/static/png/4116686-correct-operation-01-correct-icon-with-png-and-vector-format-for-correct-symbol-png-512_512_preview.webp") 260px 24px no-repeat;
+  display: inline-block;
+  width: 250px;
+  border: 1px solid #00c492;
+  padding: 3px 26px 3px 3px;
+  -moz-transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#signup fieldset textarea {
+  display: inline-block;
+  width: 250px;
+  border: 1px solid #00c492;
+  padding: 3px 26px 3px 3px;
+  -moz-transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  resize: none;
+}
+#signup fieldset input[type="checkbox"] {
+  width: 20px;
+}
+#signup fieldset input[type="radio"] {
+  width: 20px;
+}
+#signup fieldset select {
+  width: 280px;
+  padding: 3px;
+}
+#signup fieldset #postcode {
+  padding: 3px;
+  width: 270px;
+}
+#signup input::-webkit-input-placeholder,
+#signup input:-moz-placeholder input:placeholder {
+  color: #f2f2f2;
+}
+#signup .validation01 {
+  background: #f08080;
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  padding: 3px;
+  position: absolute;
+  right: 5px;
+  text-align: center;
+  top: 0;
+  width: 150px;
+  outline: 0;
+  -moz-box-shadow: 0px 0px 4px #ffffff;
+  -webkit-box-shadow: 0px 0px 4px #ffffff;
+  box-shadow: 0px 0px 4px #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#signup input:focus + .validation01 {
+  display: block;
+}
+#signup input:focus:required:invalid + .validation01 .valid,
+#signup input.error:focus + .validation01 .valid,
+#signup input.required:focus + .validation01 .valid,
+#signup input:focus + .validation01 .valid {
+  display: none;
+}
+#signup input:focus:required:valid + .validation01,
+#signup input.valid:focus + .validation01 {
+  background: #00fc00;
+}
+#signup input:focus:required:valid + .validation01 .invalid,
+#signup input.valid:focus + .validation01 .invalid {
+  display: none;
+}
+#signup input:focus:required:valid + .validation01 .valid,
+#signup input.valid:focus + .validation01 .valid {
+  display: block;
+}
+#signup fieldset input:required:valid {
+  background-color: #fff;
+  background-position: 260px -61px;
+}
+#signup input.error {
+  background-color: #f08080;
+  background-position: 260px 3px;
+  outline: none;
+}
+#signup input.required {
+  background-color: #fff;
+  background-position: 260px -30px;
+}
+#signup input.valid {
+  background-color: #fff;
+  background-position: 260px -61px;
+}
+#signup input.error::-webkit-input-placeholder,
+#signup inputerror :-moz-placeholder {
+  color: #f2f2f2;
+}
+input[type="submit"] {
+  background: #00c492;
+  border: none;
+  width: 200px;
+  margin: auto;
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /** SF UI Display*/
 /**---------------------------------------------------------------------------*!*/
 
